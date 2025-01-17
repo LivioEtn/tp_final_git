@@ -1,0 +1,72 @@
+html{
+    background-image:url(../images/espace.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+body{
+    background-color:rgba(255,255,255,0.7);
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+    border:white solid 5px;
+    width:1000px;
+    background-position:center;
+}
+h1{
+    color:orange;
+    font-family:'Arial Black';
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:xx-large;
+    margin: 5% 32%
+}
+
+h2{
+    color:orange;
+    font-family:'Arial Black';
+    text-decoration:underline;
+    text-transform:uppercase;
+    font-size:large;
+    margin: 2%;
+    border-left:orange solid 10px;
+    padding:5px;
+}
+
+img{
+    width:200px;
+    height:150px;
+    margin: 2% 6%;
+    border: green solid 5px;
+    border-bottom-color:orange; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+a{
+    text-decoration:none;
+    color:black;
+    text-transform:capitalize;
+    margin:2%;
+}
+
+h1 img{
+    height:50px;
+    width:auto;
+    border:none;
+}
+
+table{
+    background-color:white;
+    margin:2% 5%;
+}
+
+th{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+}

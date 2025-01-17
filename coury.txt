@@ -1,0 +1,64 @@
+user@git:~$ git clone https://github.com/LivioEtn/tp_final_git
+user@git:~$ cd tp_final_git
+user@git:~/tp_final_git$ mkdir css
+user@git:~/tp_final_git$ touch css/style.css
+user@git:~/tp_final_git$ git add css/style.css
+user@git:~/tp_final_git$ git commit -m "Fichier Css"
+user@git:~/tp_final_git$ git push origin main
+Username for 'https://github.com': AlexandreCoury	
+Password for 'https://AlexandreCoury@github.com': 
+
+user@git:~/tp_final_git$ git checkout -b css
+user@git:~/tp_final_git$ git checkout -b css
+Basculement sur la nouvelle branche 'css'
+user@git:~/tp_final_git$ nano css/style.css
+user@git:~/tp_final_git$ git add css/style.css
+user@git:~/tp_final_git$ git commit -m "margin"
+user@git:~/tp_final_git$ git push origin css
+
+user@git:~/tp_final_git$ git branch
+* css
+  main
+user@git:~/tp_final_git$ ls
+css  README.md
+user@git:~/tp_final_git$ cd css
+user@git:~/tp_final_git/css$ ls
+style.css
+user@git:~/tp_final_git/css$ cat style.css 
+*{
+	margin: 0;
+	padding: 0;
+
+}
+user@git:~/tp_final_git/css$ nano style.css
+
+user@git:~/tp_final_git$ git add css/style.css
+user@git:~/tp_final_git$ git commit -m "body et html"
+user@git:~/tp_final_git$ git push origin css
+
+
+//on change de role, je travaille sur la branche html
+user@git:~/tp_final_git$ git checkout main
+user@git:~/tp_final_git$ git pull origin html
+user@git:~/tp_final_git/html$ git checkout -b html
+user@git:~/tp_final_git$ cd html
+user@git:~/tp_final_git/html$ mkdir page
+user@git:~/tp_final_git/html$ touch page/formulaire.html
+user@git:~/tp_final_git/html$ cd page
+user@git:~/tp_final_git/html/page$ git add formulaire.html
+user@git:~/tp_final_git/html/page$ nano formulaire.html 
+user@git:~/tp_final_git/html$ git add page
+user@git:~/tp_final_git/html$ git commit -m "creation du dossier page et du fichier formulaire"
+user@git:~/tp_final_git/html$ git push origin html
+
+
+user@git:~/tp_final_git/html$ nano page/tableau.html
+user@git:~/tp_final_git/html$ git add page/tableau.html
+user@git:~/tp_final_git/html$ git commit -m "Creation de tableau.html"
+user@git:~/tp_final_git/html$ git push origin html
+
+
+user@git:~/tp_final_git$ git checkout main
+user@git:~/tp_final_git$ git pull origin main
+user@git:~/tp_final_git$ git merge html
+user@git:~/tp_final_git$ git push origin main

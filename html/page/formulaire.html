@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr-FR" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <a href="../index.html">Acceuil</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="tableau.html">Tableaux</a>
+
+        <h1><a href="../index.html"><img src="../images/rose.jpg" alt="image d'une rose" height="50"></a>Ma Société</h1>
+
+            <h2>Formulaire</h2>
+                <form action="traitement.php" method="post" enctype="mutlipart/form-data">
+                    <input type="radio" name="sex" id="m" value="1">
+                    <label for="m">m</label>
+
+                    <input type="radio" name="sex" id="mme" value="2">
+                    <label for="mme">mme</label>
+
+                    <input type="radio" name="sex" id="autre" value="3" checked>
+                    <label for="autre">autre</label>
+                    <br>
+
+                    <label for="firstname">Votre prénom</label>
+                    <input type="text" id="firstname" name="firstname" maxlength="200">
+                    <br>
+
+                    <label for="lastname">Votre nom de famille</label>
+                    <input type="text" name="lastname" id="lastname" maxlength="200">
+                    <br>
+
+                    <label for="age">Votre âge</label>
+                    <input type="number" name="age" id="age" min="1" max="130">
+                    <br>
+
+                    <select>
+                        <option selected disabled>Votre pays</option>
+                        <option value="1">France</option>
+                        <option value="2">Espagne</option>
+                        <option value="3">Italie</option>
+                        <option value="4">Angleterre</option>
+                    </select>
+                    <br>
+
+                    <textarea name="avis" id="avis" maxlength="2000" rows="10" cols="70" placeholder="Votre avis :"></textarea>
+                    <br>
+
+                    <input type="submit" value="Let's go">
+                </form>
+    </body>
+</html>

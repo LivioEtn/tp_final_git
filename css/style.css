@@ -1,5 +1,16 @@
-*{
-	margin: 0;
-	padding: 0;
+html{
+    background-image:url(../images/espace.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
 
+body{
+    background-color:rgba(255,255,255,0.7);
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+    border:white solid 5px;
+    width:1000px;
+    background-position:center;
 }

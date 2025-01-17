@@ -34,3 +34,39 @@ h2{
     border-left:orange solid 10px;
     padding:5px;
 }
+
+img{
+    width:200px;
+    height:150px;
+    margin: 2% 6%;
+    border: green solid 5px;
+    border-bottom-color:orange; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+a{
+    text-decoration:none;
+    color:black;
+    text-transform:capitalize;
+    margin:2%;
+}
+
+h1 img{
+    height:50px;
+    width:auto;
+    border:none;
+}
+
+table{
+    background-color:white;
+    margin:2% 5%;
+}
+
+th{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+}
